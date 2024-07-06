@@ -1,12 +1,9 @@
 streamlit
 pandas
 plotly
-matplotlib.pyplot
+matplotlib
 seaborn
-plotly.express
 joblib
-sklearn.feature_extraction.text
-sklearn.preprocessing
-matplotlib.pyplot
+sklearn
 TikTokApi
 ritetag
