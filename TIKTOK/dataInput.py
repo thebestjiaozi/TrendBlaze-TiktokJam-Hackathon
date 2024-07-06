@@ -25,7 +25,7 @@ def data_input():
     st.info("Example text input: Though we travel the world over to find the beautiful, we must carry it with us or we find it not. ")
     text = st.text_area("Enter video content description:")
 
-    duration = st.number_input("Enter video duration (minutes):", min_value=0, step=1)
+    duration = st.number_input("Enter video duration (seconds):", min_value=0, step=1)
 
     hashtag_list = []  # Initialize hashtag_list outside the if statement
 
