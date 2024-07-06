@@ -1,0 +1,12 @@
+streamlit
+pandas
+plotly.graph_objects
+matplotlib.pyplot
+seaborn
+plotly.express
+joblib
+sklearn.feature_extraction.text
+sklearn.preprocessing
+matplotlib.pyplot
+TikTokApi
+ritetag
