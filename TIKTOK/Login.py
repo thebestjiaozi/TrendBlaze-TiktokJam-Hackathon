@@ -30,8 +30,11 @@ def Login():
 
     # Button to trigger analytics
     if st.button('Get your analytics'):
-        asyncio.run(get_users(user_name))
-        comment_count = asyncio.run(get_comment_count(user_name))
+        try:
+            asyncio.run(get_users(user_name))
+            comment_count = asyncio.run(get_comment_count(user_name))
+        except Exception as e:
+            st.error(f"An error occurred: {str(e)}")
 
     # Load and display tabular data if username is provided
     if user_name:
