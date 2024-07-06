@@ -4,6 +4,6 @@ plotly
 matplotlib
 seaborn
 joblib
-sklearn
+scikit-learn
 TikTokApi
 ritetag
