@@ -13,8 +13,11 @@ from Login import Login
 from Hashtag import Hashtag
 from dataInput import data_input
 from process import analytics
+import os
 
 def main():
+    os.system('playwright install')
+    os.system('playwright install-deps')
     # Default settings
     if 'followers' not in st.session_state:
         st.session_state.followers = 0
