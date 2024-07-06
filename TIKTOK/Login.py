@@ -38,7 +38,7 @@ def Login():
         st.write(f"Analyzing data for: {user_name}")
         
         # Load in existing data to test
-        df = pd.read_csv('userStats.csv')
+        df = pd.read_csv('TIKTOK/userStats.csv')
         
         col1, col2, col3 = st.columns(3)
         col4, col5, col6 = st.columns(3)
