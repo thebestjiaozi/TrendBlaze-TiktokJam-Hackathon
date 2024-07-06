@@ -8,3 +8,4 @@ scikit-learn
 TikTokApi
 ritetag
 xgboost
+playwright
