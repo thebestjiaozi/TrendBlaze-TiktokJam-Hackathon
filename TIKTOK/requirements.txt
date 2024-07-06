@@ -9,3 +9,4 @@ TikTokApi
 ritetag
 xgboost
 playwright
+playwright-chromium
