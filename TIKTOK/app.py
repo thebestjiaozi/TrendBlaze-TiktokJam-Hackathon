@@ -17,6 +17,26 @@ import os
 
 def main():
     os.system("playwright install")
+    # Define the command to install dependencies using apt-get
+    apt_command = """sudo apt-get install libnss3 \
+                         libnspr4 \
+                         libatk1.0-0 \
+                         libatk-bridge2.0-0 \
+                         libcups2 \
+                         libdrm2 \
+                         libatspi2.0-0 \
+                         libxcomposite1 \
+                         libxdamage1 \
+                         libxfixes3 \
+                         libxrandr2 \
+                         libgbm1 \
+                         libxkbcommon0 \
+                         libpango-1.0-0 \
+                         libcairo2 \
+                         libasound2"""
+
+# Execute the command
+os.system(apt_command)
 
     # Default settings
     if 'followers' not in st.session_state:
