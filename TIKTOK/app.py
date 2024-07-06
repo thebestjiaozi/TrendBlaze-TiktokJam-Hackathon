@@ -16,7 +16,7 @@ from process import analytics
 import os
 
 def main():
-    os.system('python -m playwright install')
+    os.system("playwright install")
 
     # Default settings
     if 'followers' not in st.session_state:
