@@ -35,8 +35,8 @@ def main():
                          libcairo2 \
                          libasound2"""
 
-# Execute the command
-os.system(apt_command)
+    # Execute the command
+    os.system(apt_command)
 
     # Default settings
     if 'followers' not in st.session_state:
