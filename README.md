@@ -29,10 +29,10 @@ Analytics Page: Displays the predicted play count for a video before and after a
 
 The entire web app was built using Streamlit, which provided a seamless and interactive user experience.
 
-Challenges we ran into
+# Challenges we ran into
 
-Data Integration: Integrating various data sources and APIs, such as the TikTok API and RiteTag API, to provide accurate and comprehensive recommendations. We had encountered many difficulties in addressing dependencies issues, getting real-time Tiktok Data and finally deploy the whole project. But eventually solved all of them after researching on relevant articles and seeking help from the API developers.
-Algorithm Optimization: Fine-tuning our machine learning models to ensure precise predictions and valuable recommendations for content optimization. We had tried three algorithm to find the best one, namely Lightgbm, Random Forest and XGBoost, took us hours to train the model to find the best hyperparameter that minimised the RMSE.
+Data Integration: Integrating various data sources and APIs, such as the TikTok API and RiteTag API, to provide accurate and comprehensive recommendations. We encountered many difficulties in addressing dependencies issues, getting real-time Tiktok Data and finally deploying the whole project. But eventually solved all of them after researching on relevant articles and seeking help from the API developers.
+Algorithm Optimization: Fine-tuning our machine learning models to ensure precise predictions and valuable recommendations for content optimization. We tried three algorithms to find the best one, namely Lightgbm, Random Forest and XGBoost, took us hours to train the model to find the best hyperparameter that minimised the RMSE.
 User Experience: Designing an intuitive and user-friendly interface that allows creators to easily input data, understand analytics, and apply recommendations. As we first decide to use numerical values to present the data, it just does not look appealing enough to attract users and users might not see the difference in their playcount with and without the use of our TrendBlaze app, hence we want to increase the impact by inserting a bar chart for clearer illustration.
 Accomplishments that we're proud of
 
@@ -50,7 +50,7 @@ Data Visualization: We improved our ability to visualize data using libraries su
 
 Web Development: Using Streamlit, we gained significant experience in building interactive and user-friendly web applications. We learned how to create dynamic pages and handle user inputs efficiently.
 
-Natural Language Processing (NLP): We expanded our knowledge in NLP, particularly in using tools like TfidfVectorizer and SentimentIntensityAnalyzer to analyze and interpret text data.
+Natural Language Processing (NLP): We expanded our knowledge in NLP, particularly by using tools like TfidfVectorizer and SentimentIntensityAnalyzer to analyze and interpret text data.
 
 # What's next for TrendBlaze
 
