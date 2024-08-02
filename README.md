@@ -1,4 +1,9 @@
+
 # TrendBlaze
+
+https://github.com/user-attachments/assets/8a9e00cd-be46-4379-b813-dfde4a0e578c
+
+
 TrendBlaze is a comprehensive TikTok play count predictor and optimizer web application, designed to help content creators maximize their engagement and reach on TikTok.
 Inspiration
 
